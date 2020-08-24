@@ -51,7 +51,7 @@ export const BackgroundImageContainer = styled.div`
     height:100%;
     background-position: center;
     background-size: cover;
-    backgroung-image: ${({ imageUrl }) => `url(${imageUrl})`};
+    background-image: ${({ imageUrl }) => `url(${imageUrl})`};
 `;
 
 export const TitleText = styled.h1`
